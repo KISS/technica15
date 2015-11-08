@@ -1,0 +1,11 @@
+body {
+	background-color: #92d0ff;
+}
+
+.sections h2 {
+	font-size: 14px;
+}
+
+.section-school {
+	background: url('/images/school.png');
+ }

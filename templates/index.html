@@ -3,27 +3,36 @@
 <html> 
 	<head>
 		<title>Unifund</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="static/main.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container">
-			<h1>Unifund</h1>
-			<div>
-				<h2>School Search</h2>
-				<a href="/schools">get started</a>
+		<div class="container-fluid">
+			<div><img src="../images/logo_blue.png"></div>
+			<div class="sections row"> 
+				<div class="col-xs-6 section-school">
+					<a href="/schools">
+						<h2>SCHOOLS</h2>
+					</a>
+				</div>
+				<div class="col-xs-6 section-scholarship">
+					<a href="/scholarships">
+						<h2>SCHOLARSHIPS</h2>
+					</a>
+				</div>
 			</div>
-			<div>
-				<h2>Scholarships</h2>
-				<a href="/scholarships">see your best options</a>
-			</div>
-			<div>
-				<h2>Loans</h2>
-				<a href="/loans">carefully selected</a>
-			</div>
-			<div>
-				<h2>Profile</h2>
-				<a href="/login">Log into your account or create a new one (it's easy!)</a>
+			<div class="sections row">
+				<div class="col-xs-6 section-loan">
+					<a href="/loans">
+						<h2>LOANS</h2>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="/login section-profile">
+						<h2>PROFILE</h2>
+					</a>
+				</div>
 			</div>
 		</div>
 	</body>
