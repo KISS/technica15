@@ -30,3 +30,9 @@ body {
 .loan-image {
 	width: 100px;
 }
+
+.profile-image img {
+	width: 85px;
+    margin-top: -50px;
+    border-radius: 100px;
+}
