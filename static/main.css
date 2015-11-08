@@ -2,6 +2,10 @@ body {
 	background-color: #92d0ff;
 }
 
+.logo img {
+	width: 200px;
+}
+
 .container {
 	margin: 0 auto;
 	padding: 20px;
@@ -12,7 +16,7 @@ body {
 }
 
 .section-school {
-	background: url('/images/school.png');
+	/*background: url('/images/school.png');*/
  }
 
 .account-form {
