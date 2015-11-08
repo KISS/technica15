@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Unifund</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link href="/static/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="/static/main.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container container-fluid">
+			<h1>Account Settings</h1>
+			<!-- <span class="glyphicon glyphicon-menu-left" aria-hidden="true"><a href="/profile"></a></span> -->
+			<form class="account-form">
+				<fieldset class="form-group">
+				    <label for="exampleInputEmail1">Email</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="test@email.com">
+				</fieldset>
+				<fieldset class="form-group">
+				    <label for="exampleInputPassword1">Password</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				</fieldset>
+				<fieldset class="form-group">
+				    <label for="exampleInputPassword1">Zip Code</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="20742">
+				</fieldset>
+				<label for="basic-url">Your share URL</label>
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon3">https://unifund.com/fundmeyo/</span>
+				  <!-- <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"> -->
+				</div>
+			</form>
+			<div class="account-cta">
+				<a href="#" class="btn btn-success">Save</a>
+				<a href="/profile" class="btn btn-primary">Back</a>
+			</div>
+		</div>
+	</body>
+</html>

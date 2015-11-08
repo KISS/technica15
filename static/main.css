@@ -2,6 +2,11 @@ body {
 	background-color: #92d0ff;
 }
 
+.container {
+	margin: 0 auto;
+	padding: 20px;
+}
+
 .sections h2 {
 	font-size: 14px;
 }
@@ -9,3 +14,11 @@ body {
 .section-school {
 	background: url('/images/school.png');
  }
+
+.account-form {
+	padding: 20px 0px;
+}
+
+.account-cta {
+	padding-top: 20px;
+}
