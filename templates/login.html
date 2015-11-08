@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Unifund</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Profile</h1>
+
+			<h2>Sign into your Account</h2>
+			<form>
+				<fieldset class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+				</fieldset>
+				<fieldset class="form-group">
+				    <label for="exampleInputPassword1">Password</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				</fieldset>
+				<a href="/profile" class="btn btn-primary">Sign in</a>
+			</form>
+
+			<h2>Create an Account</h2>
+			<form>
+				<fieldset class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+				    <small class="text-muted">We'll never share your email with anyone else.</small>
+			  	</fieldset>
+			    <fieldset class="form-group">
+				    <label for="exampleInputPassword1">Password</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  	    </fieldset>
+		  	    <fieldset class="form-group">
+				    <label for="exampleSelect1">Are you the Guardian of a student or the Student?</label>
+				    <select class="form-control" id="exampleSelect1">
+				      <option>Guardian</option>
+				      <option>Student</option>
+				    </select>
+				</fieldset>
+				<a href="/profile" class="btn btn-primary">Create Account</a>
+			</form>
+		</div>
+	</body>
+</html>
