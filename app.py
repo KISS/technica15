@@ -35,9 +35,9 @@ def profile():
 def account_settings():
 	return render_template("account-settings.html")
 
-@app.route('/profile/background')
-def background():
-	return render_template("background.html")
+@app.route('/profile/about')
+def about():
+	return render_template("about.html")
 
 @app.route('/profile/fafsa')
 def fafsa():
