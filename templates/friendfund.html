@@ -19,12 +19,30 @@
 				</div>
 			</form>
 			<div>
-				<p>Thanks for helping me fund my education. Use the URL below to use CapitalOne to send me some money :) </p>
+				<p>Thanks for helping me fund my education. Use the URL above to use CapitalOne to send me some money :) </p>
+
+				<p>I'm also accepting donations on GoFundMe: https://www.gofundme.com/fundmeyo</p>
 			</div>
 			<div class="account-cta">
 				<a href="#" class="btn btn-success">Save</a>
 				<a href="/profile" class="btn btn-primary">Back</a>
 			</div>
+
+
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		    <script src="/static/bootstrap.min.js"></script>
+			<script type="text/javascript">
+
+			$.ajax({
+				url: 'http://api.reimaginebanking.com/accounts/56241a12de4bf40b17112079/deposits?key=8c40f30246a232ecc89d49120e6636b1',
+			    success: function(results){
+			        console.log(results)
+			    }
+			});
+			</script>
+
 		</div>
 	</body>
 </html>
